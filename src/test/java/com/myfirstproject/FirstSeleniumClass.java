@@ -13,10 +13,8 @@ public class FirstSeleniumClass {
 //      For  MAC
         System.setProperty("webdriver.chrome.driver","./drivers/chromedriver");  //LATER WE WILL NOT USE THIS METHOD
 
-
 //       For  WINDOWS
 //        System.setProperty("webdriver.chrome.driver",".\\drivers\\chromedriver.exe");//LATER WE WILL NOT USE THIS METHOD
-
 
 
 //       To  create driver
