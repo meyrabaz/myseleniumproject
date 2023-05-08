@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Day02_Navigations {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 //        1. Set Up
         System.setProperty("webdriver.chrome.driver","./drivers/chromedriver");
 //        2. Create the driver object
@@ -16,14 +16,15 @@ public class Day02_Navigations {
 //        Open google home page https://www.walmart.com/.
         driver.get("https://www.walmart.com/");
 //        On the same class, Navigate to amazon home page https://www.amazon.com/
-//        driver.get("https://www.amazon.com/");
-        driver.navigate().to("https://www.amazon.com/");//Alternative way of navigating to a website
+       driver.get("https://www.amazon.com/");
+    //    driver.navigate().to("https://www.amazon.com/");//Alternative way of navigating to a website
 //        Navigate back to google
         driver.navigate().back();
 //        Navigate forward to amazon
         driver.navigate().forward();
 //        Refresh the page
         driver.navigate().refresh();
+
 //        Close/Quit the browser
 //        there are 2 ways to close the browser: close() or quit(). We should NOT use BOTH
 //        driver.close();
