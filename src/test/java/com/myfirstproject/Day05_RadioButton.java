@@ -9,10 +9,13 @@ import static org.junit.Assert.assertTrue;
 
 public class Day05_RadioButton extends TestBase {
     /*
+
     Go to https://testcenter.techproeducation.com/index.php?page=radio-buttons
     Click on Red
     Click on Football
+
     */
+
     @Test
     public void radioButtonTest() throws InterruptedException {
 //        Go to https://testcenter.techproeducation.com/index.php?page=radio-buttons

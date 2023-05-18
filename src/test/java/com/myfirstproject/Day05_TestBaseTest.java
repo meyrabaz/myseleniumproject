@@ -8,5 +8,6 @@ public class Day05_TestBaseTest extends TestBase {
     @Test
     public void testBaseTest(){
         driver.get("https://techproeducation.com/");
+
     }
 }
