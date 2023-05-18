@@ -6,6 +6,7 @@ import org.junit.Test;
 public class Day05_JavaFaker {
 
      /*
+
     Test Data: Username, password, name, lastname, address, zipcode, ssn, title etc...
     Where do we get these test data?
     BA - Business Analyst ==> Because he/she writes requirements like acceptance criteria
@@ -17,6 +18,7 @@ public class Day05_JavaFaker {
     From Database
     From API requests
     AND ==>  Java Faker as mock data
+
      */
 
 
@@ -55,7 +57,7 @@ public class Day05_JavaFaker {
         //state
         System.out.println(faker.address().state());
 
-        //numberBetween ==> Random number --> First is inclusive, second is exclusive
+        //numberBetween  ==> Random number  --> First is inclusive , second is exclusive.
         System.out.println("faker.number().numberBetween(1,10) = " + faker.number().numberBetween(1, 10));
 
         //emailAddress
