@@ -12,6 +12,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Day05_DropDown extends TestBase {
         /*
+
         Go to https://testcenter.techproeducation.com/index.php?page=dropdown
         1.Create a test method selectByIndexTest and Select Option 1 using index
         2.Create a test method selectByValueTest Select Option 2 by value
@@ -20,9 +21,10 @@ public class Day05_DropDown extends TestBase {
         5.Create a test method printFirstSelectedOptionTest Print first selected option
         6.Verify the dropdown has Texas text
         7.Find the size of the dropdown
+
         */
 
-    //        1.Create a test method selectByIndexTest and Select Option 1 using index
+    //        1.Create a test method selectByIndexTest and Select Option 1 using index.
     @Test
     public void selectByIndexTest() throws InterruptedException {
         driver.get("https://testcenter.techproeducation.com/index.php?page=dropdown");
@@ -38,7 +40,7 @@ public class Day05_DropDown extends TestBase {
 
     }
 
-    //        2.Create a test method selectByValueTest Select Option 2 by value
+    //        2.Create a test method selectByValueTest Select Option 2 by value.
     @Test
     public void selectByValueTest() throws InterruptedException {
         driver.get("https://testcenter.techproeducation.com/index.php?page=dropdown");
@@ -48,13 +50,13 @@ public class Day05_DropDown extends TestBase {
         //2nd Step: Create Select object
         Select select = new Select(dropDown);
 
-        //3rd Step: Select Option 2 by value
+        //3rd Step: Select Option 2 by value..
         Thread.sleep(3000);
         select.selectByValue("2");
 
     }
 
-    //        3.Create a test method selectByVisibleTextTest Select Option 1 value by visible text
+    //        3.Create a test method selectByVisibleTextTest Select Option 1 value by visible text..
     @Test
     public void selectByVisibleTextTest() throws InterruptedException {
         driver.get("https://testcenter.techproeducation.com/index.php?page=dropdown");
