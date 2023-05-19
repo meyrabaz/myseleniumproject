@@ -10,7 +10,7 @@ import java.util.List;
 
 import static org.junit.Assert.assertTrue;
 
-public class Day05_DropDown extends TestBase {
+public class Day05_DropDown extends TestBase  {
         /*
 
         Go to https://testcenter.techproeducation.com/index.php?page=dropdown
