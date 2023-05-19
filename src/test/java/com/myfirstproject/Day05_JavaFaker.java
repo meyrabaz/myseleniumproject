@@ -57,7 +57,7 @@ public class Day05_JavaFaker {
         //state
         System.out.println(faker.address().state());
 
-        //numberBetween  ==> Random number  --> First is inclusive , second is exclusive.
+        //numberBetween  ==> Random number  --> First is inclusive , second is exclusive..
         System.out.println("faker.number().numberBetween(1,10) = " + faker.number().numberBetween(1, 10));
 
         //emailAddress
