@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class FirstSeleniumClass {
 
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
 //        This is one way to create an automation script
 //        We will not use main method later on
 
